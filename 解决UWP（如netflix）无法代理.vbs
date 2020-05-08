@@ -1,4 +1,4 @@
-Select Case msgbox("µã»÷ 'ÊÇ' Ê¹ËùÓĞWindowsApp¿ÉÒÔ´úÀí·ÃÎÊÍøÂç£¬" & vbcrlf & vbcrlf & "µã»÷ '·ñ' Çå³ıËùÓĞWindowsApp´úÀí·ÃÎÊÍøÂçÈ¨ÏŞ£¡", 51, "Ê¹WindowsApp»ñÈ¡´úÀíÈ¨ÏŞ")  
+Select Case msgbox("ç‚¹å‡» 'æ˜¯' ä½¿æ‰€æœ‰WindowsAppå¯ä»¥ä»£ç†è®¿é—®ç½‘ç»œï¼Œ" & vbcrlf & vbcrlf & "ç‚¹å‡» 'å¦' æ¸…é™¤æ‰€æœ‰WindowsAppä»£ç†è®¿é—®ç½‘ç»œæƒé™ï¼", 51, "ä½¿WindowsAppè·å–ä»£ç†æƒé™")  
 Case 6  
     Set ws = WScript.CreateObject("wscript.shell")  
     app = ws.ExpandEnvironmentStrings("%USERPROFILE%\AppData\Local\Packages")  
@@ -13,3 +13,4 @@ Case 6
 Case 7  
     CreateObject("Shell.Application").ShellExecute "CheckNetIsolation.exe","LoopbackExempt -c","","runas",1  
 End Select  
+
