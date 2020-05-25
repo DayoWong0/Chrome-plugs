@@ -6,3 +6,6 @@
 - [Trim: IMDB Ratings on Netflix](https://chrome.google.com/webstore/detail/trim-imdb-ratings-on-netf/lpgajkhkagnpdjklmpgjeplmgffnhhjj)
 - [Cookie-Editor](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)
 - [自动刷新网页](https://chrome.google.com/webstore/detail/super-auto-refresh-plus/globgafddkdlnalejlkcpaefakkhkdoa)
+- [JSON-Hander](https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahffihkfnj)
+- [Github等代码块复制](https://github.com/zenorocha/codecopy)
+- [滴答清单](https://chrome.google.com/webstore/detail/ticktick-todo-task-list/diankknpkndanachmlckaikddgcehkod)
