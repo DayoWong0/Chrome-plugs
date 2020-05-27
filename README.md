@@ -10,3 +10,5 @@
 - [Github等代码块复制](https://github.com/zenorocha/codecopy)
 - [滴答清单](https://chrome.google.com/webstore/detail/ticktick-todo-task-list/diankknpkndanachmlckaikddgcehkod)
 - [Github项目文件树形结构展示](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
+- [网址生成二维码](https://chrome.google.com/webstore/detail/%E4%BA%8C%E7%BB%B4%E7%A0%81qr%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8qr-code-generato/pflgjjogbmmcmfhfcnlohagkablhbpmg)
+手机扫一扫即可访问
