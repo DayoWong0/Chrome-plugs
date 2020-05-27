@@ -13,3 +13,4 @@
 - [网址生成二维码](https://chrome.google.com/webstore/detail/%E4%BA%8C%E7%BB%B4%E7%A0%81qr%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8qr-code-generato/pflgjjogbmmcmfhfcnlohagkablhbpmg)
 手机扫一扫即可访问
 - [划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad/related)
+- [标签一键保存](https://chrome.google.com/webstore/detail/%E6%A0%87%E7%AD%BE%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98/inmdclijgcfddiagnepffcmknfgghiho/related)
