@@ -9,3 +9,4 @@
 - [JSON-Hander](https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahffihkfnj)
 - [Github等代码块复制](https://github.com/zenorocha/codecopy)
 - [滴答清单](https://chrome.google.com/webstore/detail/ticktick-todo-task-list/diankknpkndanachmlckaikddgcehkod)
+- [Github项目文件树形结构展示](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
