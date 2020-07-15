@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         pornhub自动跳转日本站
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       You
 // @match        https://*.pornhub.com/*
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/chengziqaq/Chrome-plugs/master/auto_to_jppornhub.js
 // ==/UserScript==
 
 (function() {
