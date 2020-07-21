@@ -1,4 +1,5 @@
 // ==UserScript==
+// @name         auto to pornhub jp
 // @name:zh-CN   pornhub自动跳转日本站
 // @name:en      auto to pornhub jp
 // @updateURL    https://raw.githubusercontent.com/chengziqaq/Chrome-plugs/master/auto_to_jppornhub.js
