@@ -7,7 +7,7 @@
 // @version      0.4
 //@description:zh-cn pornhub跳转日本站
 // @description:en  auto jump to pornhub jp
-// @author       You
+// @author       no one
 // @match        https://*.pornhub.com/*
 // @grant        none
 // @connect      pornhub.com
