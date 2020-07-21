@@ -4,7 +4,7 @@
 // @name:en      auto to pornhub jp
 // @updateURL    https://raw.githubusercontent.com/chengziqaq/Chrome-plugs/master/auto_to_jppornhub.js
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 //@description:zh-cn pornhub跳转日本站
 // @description:en  auto jump to pornhub jp
 // @author       no one
