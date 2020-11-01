@@ -21,3 +21,15 @@
    Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.
    
 ## [油猴插件](https://github.com/chengziqaq/Chrome-plugs/blob/master/tampermonkey-backup-chrome-2020-05-28T08-38-52-562Z.zip)
+
+### [自己写的](https://greasyfork.org/zh-CN/users/573758-dayowong0)
+
+- [bilibili](https://github.com/DayoWong0/script/blob/master/tampermonkey/bilibili/bilibili.js)
+
+   哔哩哔哩双击全屏播放，双击视频标题复制为 Markdown 一级标题附带链接地址，双击播放列表名称复制播放列表标题和视频分P链接地址为 Markdown 二级标题附带链接地址
+   
+- [encoreTVB 自动播放](https://github.com/DayoWong0/script/blob/master/tampermonkey/encoreTVB/encoreTVB.js)
+
+- [引用网址和标题为 Markdown 链接](https://github.com/DayoWong0/script/blob/master/tampermonkey/markdown/site_title_and_link_to_markdown.js)
+
+   点击网页右下角蓝色的 md 按钮将当前的 标题 + 网址 复制为 Markdown 格式的链接，方便在 Markdown 格式的笔记中引用网站上的资料。例如 `[百度一下，你就知道](https://www.baidu.com)`
