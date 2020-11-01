@@ -2,7 +2,7 @@
 // @name         引用网址和标题为 Markdown 链接
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  点击网页右下角蓝色的 md 按钮将当前的 标题 + 网址 复制为 Markdown 格式的链接，方便在 Markdown 格式的笔记中引用网站上的资料。例如 [百度一下，你就知道](https://www.baidu.com)
 // @author       https://github.com/DayoWong0/script
 // @include *
 // @require     https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js
