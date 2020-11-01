@@ -22,7 +22,7 @@
    
 ## [油猴插件](https://github.com/chengziqaq/Chrome-plugs/blob/master/tampermonkey-backup-chrome-2020-05-28T08-38-52-562Z.zip)
 
-### [自己写的](https://greasyfork.org/zh-CN/users/573758-dayowong0)
+### [自己写的 [Greasy Fork 仓库]](https://greasyfork.org/zh-CN/users/573758-dayowong0)
 
 - [bilibili](https://github.com/DayoWong0/script/blob/master/tampermonkey/bilibili/bilibili.js)
 
