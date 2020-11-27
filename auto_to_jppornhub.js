@@ -2,7 +2,6 @@
 // @name         pornhub自动跳转日本站
 // @name:zh-CN   pornhub自动跳转日本站
 // @name:en      auto to pornhub jp
-// @updateURL    https://raw.githubusercontent.com/chengziqaq/Chrome-plugs/master/auto_to_jppornhub.js
 // @namespace    http://tampermonkey.net/
 // @version      0.5
 //@description:zh-cn pornhub跳转日本站
@@ -12,6 +11,7 @@
 // @grant        none
 // @connect      pornhub.com
 // @connect      www.pornhub.com
+// @description pornhub跳转日本站
 // ==/UserScript==
 
 (function() {
@@ -25,7 +25,7 @@
     var country=arrWord[0];
     //alert("域名前缀是" + country);
     if(domain!="jp.pornhub.com"){
-        window.location.href=url.replace(country,"jp");
+        window.location.href="https://jp.pornhub.com/video?c=111";
         //alert(url.replace(country,"jp"))
     }
 })();
