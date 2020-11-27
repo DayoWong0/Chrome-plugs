@@ -3,7 +3,7 @@
 // @name:zh-CN   pornhub自动跳转日本站
 // @name:en      auto to pornhub jp
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 //@description:zh-cn pornhub跳转日本站
 // @description:en  auto jump to pornhub jp
 // @author       no one
