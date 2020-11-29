@@ -35,3 +35,4 @@
 - [引用网址和标题为 Markdown 链接](https://github.com/DayoWong0/script/blob/master/tampermonkey/markdown/site_title_and_link_to_markdown.js)
 
    点击网页右下角蓝色的 md 按钮将当前的 标题 + 网址 复制为 Markdown 格式的链接，方便在 Markdown 格式的笔记中引用网站上的资料。例如 `[百度一下，你就知道](https://www.baidu.com)`
+- [Unblock encoreTVB](https://github.com/DayoWong0/Unblock-TVB)
