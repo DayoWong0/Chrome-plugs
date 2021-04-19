@@ -1,4 +1,4 @@
-Select Case msgbox("点击 '是' 使所有WindowsApp可以代理访问网络，" & vbcrlf & vbcrlf & "点击 '否' 清除所有WindowsApp代理访问网络权限！", 51, "使WindowsApp获取代理权限")  
+Select Case msgbox("Click 'Yes' let all UWP APP work in proxy" & vbcrlf & vbcrlf & "Click 'No' Clear the quanxian of All WindowsApp use Internet", 51, "let WindowsApp get proxy quanxian")  
 Case 6  
     Set ws = WScript.CreateObject("wscript.shell")  
     app = ws.ExpandEnvironmentStrings("%USERPROFILE%\AppData\Local\Packages")  
@@ -12,5 +12,4 @@ Case 6
     CreateObject("Shell.Application").ShellExecute ws.ExpandEnvironmentStrings("%TEMP%\WindowsAppProxyAccess.bat"),"","","runas",1  
 Case 7  
     CreateObject("Shell.Application").ShellExecute "CheckNetIsolation.exe","LoopbackExempt -c","","runas",1  
-End Select  
-
+End Select
