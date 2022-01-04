@@ -2,7 +2,7 @@
 // @name            复制网页标题和网址为Markdown链接
 // @namespace       http://tampermonkey.net/
 // @description     鼠标右键选择TamperMonkey运行此脚本可引用网页标题+网址为Markdown链接 快捷键 ALT + B 个人自用 代码参考来自https://gist.github.com/vhxubo/e94b0cceadf0291050f05ab1c0bb19c9
-// @version         0.5
+// @version         0.6
 // @author          https://dayowong.com/DayoWong0
 // @match        *://*/*
 // @require      https://cdn.jsdelivr.net/npm/sweetalert2@11
