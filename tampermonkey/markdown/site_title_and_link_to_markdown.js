@@ -35,6 +35,7 @@
     document.onkeydown = function(event) {
         if (event.altKey && event.keyCode == 66) {
             GM_setClipboard(`[${document.title}](${document.URL})`);
+            successAlert()
         }
     }
 })();
