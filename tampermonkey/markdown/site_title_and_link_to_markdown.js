@@ -1,69 +1,40 @@
 // ==UserScript==
-// @name            引用网页标题和网址为Markdown链接
+// @name            复制网页标题和网址为Markdown链接
 // @namespace       http://tampermonkey.net/
-// @description     鼠标右键选择TamperMonkey运行此脚本可引用网页标题+网址为Markdown链接 快捷键 ALT + B
-// @version         0.4
+// @description     鼠标右键选择TamperMonkey运行此脚本可引用网页标题+网址为Markdown链接 快捷键 ALT + B 个人自用 代码参考来自https://gist.github.com/vhxubo/e94b0cceadf0291050f05ab1c0bb19c9
+// @version         0.5
 // @author          https://dayowong.com/DayoWong0
-// @include         *
-// @require      https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js
+// @match        *://*/*
 // @require      https://cdn.jsdelivr.net/npm/sweetalert2@11
 // @grant        GM_registerMenuCommand
+// @grant        GM_setClipboard
 
-// ==/UserScript==]
+// ==/UserScript==]]
 
 (function() {
     'use strict';
-    let elementId ='CopyAsMdLink'
-
-    function getCopyText() {
-        let link = window.location.href
-        let title = document.title
-        return "[" + title + "](" + link + ")"
-    }
-
-    // 快捷键 alt + B
-    document.onkeydown = function(event) {
-        if (event.altKey && event.keyCode == 66) {
-            execCopy()
-        }
-    }
-
-
-    function init(elementId){
-        //创建一个不可见的button，用于模拟触发Click事件并复制
-        let createDiv=document.createElement(elementId)
-        createDiv.innerHTML='<button id="' + elementId + '" style="display: none"></button>'
-        document.body.appendChild(createDiv)
-
-        let clipboard = new ClipboardJS('#' + elementId, {
-            text: function(trigger) {
-                return getCopyText()
-            }});
-        clipboard.on('success', function(e) {
-            console.info("复制成功");
-            e.clearSelection();
-            Swal.fire({
+    function successAlert(){
+        Swal.fire({
                 icon: 'success',
                 title: '复制成功!',
                 timer: 2000
             })
-        });
-        clipboard.on('error', function(e) {
-            console.info("复制失败");
-            Swal.fire({
-                icon: 'error',
-                title: '复制失败!',
-                timer: 2000
-            })
-        });
     }
-
-    function execCopy(){
-        // 模拟点击事件
-        document.getElementById(elementId).click()
+    GM_registerMenuCommand("复制标题及链接", () =>
+                           {GM_setClipboard(`[${document.title}](${document.URL})`)
+                           successAlert()
+                           }
+                          );
+    GM_registerMenuCommand("仅复制标题", () => {GM_setClipboard(document.title)
+                                           successAlert()
+                                          }
+                                           );
+    GM_registerMenuCommand("仅复制链接", () => {GM_setClipboard(document.URL)
+                                          successAlert()
+                                          });
+    document.onkeydown = function(event) {
+        if (event.altKey && event.keyCode == 66) {
+            GM_setClipboard(`[${document.title}](${document.URL})`);
+        }
     }
-
-    GM_registerMenuCommand("复制", () => execCopy());
-
-    init(elementId)
 })();
