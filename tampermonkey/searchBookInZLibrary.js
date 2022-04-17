@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         在z-library中搜索
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  在z-library中搜索选中的文字
 // @author       You
-// @match        https://book.douban.com/subject/*
+// @match        *://*/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=douban.com
 // @grant          GM_registerMenuCommand
 // @license MIT
